@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin1.Vistas.MainView">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="0, 10">
+            <Button
+                x:Name="MyButton"
+                Text="PÚLSAME"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="EndAndExpand" />
+            <Label 
+                x:Name="LblTimes"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="StartAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

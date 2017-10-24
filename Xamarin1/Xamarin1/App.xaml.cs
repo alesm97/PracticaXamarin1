@@ -13,7 +13,7 @@ namespace Xamarin1
         {
             InitializeComponent();
 
-            MainPage = new Xamarin1.MainPage();
+            MainPage = new Vistas.MainView();
         }
 
         protected override void OnStart()
